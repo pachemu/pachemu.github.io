@@ -1,0 +1,97 @@
+body {
+  background-color: #808080;
+  font: 1.2em "Fira Sans", sans-serif;
+  transition: ease all 0.3s;
+}
+
+nav h3 {
+  display: inline-flex;
+  margin-left: 15px;
+  font-size: 1.05rem;
+}
+
+.AboutUs, .Services, .Goods, .Contacts {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  body {
+    font-size: 3rem;
+  }
+}
+
+.Text {
+  background: #fff;
+  min-height: 100px;
+  min-width: 100px;
+  font-size: 1.5rem;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+* {
+  box-sizing: border-box;
+  border-radius: 2%;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: #000;
+}
+
+.HeroImg {
+  width: 100vw;
+  height: 500px;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 1.5rem;
+  }
+
+  .herocaption {
+    padding-left: 150px; 
+  }
+
+  .heroforcaption {
+    padding-left: 150px; 
+  }
+}
+
+.herocaption {
+  position: absolute;
+  top: 20px;
+  left: 25%;
+  transform: translateX(-50%);
+}
+
+.gmail, .FIO, .Commentariy {
+  display: flex;
+}
+
+.heroforcaption {
+  position: absolute;
+  bottom: 20px;
+  left:25% ;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+abbr {
+  color: orange;
+}
