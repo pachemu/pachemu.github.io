@@ -1,0 +1,25 @@
+body {
+    background: url(nastya.jpg);
+    background-size: cover;
+}
+p {
+    width: 320px;
+}
+.div {
+    width: 320px; /* Ширина блока */
+    height: 300px; /* Высота блока */
+    background-color: #fff; /* Белый цвет фона */
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень блока */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    display: flex; /* Центрирование содержимого по горизонтали */
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+div p{
+    margin-left: 15px;
+}
+div span {
+    margin-left: 15px;
+}
